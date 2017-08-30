@@ -1,8 +1,4 @@
-" VIM Configuration File
-" Description: Optimized for C/C++ development, but useful also for other things.
-" Author: Gerhard Gappmeier
-"
-
+execute pathogen#infect()
 filetype plugin on
 " File ~/.vim/ftplugin/cpp.vim
 " Cplusplus specific settings
